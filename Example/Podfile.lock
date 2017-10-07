@@ -1,0 +1,16 @@
+PODS:
+  - StringValidation (0.1.0)
+
+DEPENDENCIES:
+  - StringValidation (from `../`)
+
+EXTERNAL SOURCES:
+  StringValidation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  StringValidation: d4a0e33c710d18fc4fd949c9b96727592539047a
+
+PODFILE CHECKSUM: 1b1bb33ece0e454b7e67f4a6dfb5b573eb96e2a1
+
+COCOAPODS: 1.3.1

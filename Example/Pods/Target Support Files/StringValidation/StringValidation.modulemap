@@ -1,0 +1,6 @@
+framework module StringValidation {
+  umbrella header "StringValidation-umbrella.h"
+
+  export *
+  module * { export * }
+}
