@@ -26,4 +26,5 @@ public class FullNameValidator: StringValidator {
 		}
 		return false
 	}
+	
 }

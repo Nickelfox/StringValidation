@@ -18,3 +18,14 @@ public class UrlValidator: StringValidator {
 		return false
 	}
 }
+
+extension String {
+	public var isValidURL: Bool {
+		if let _ = URL(string: self) {
+			return true
+		} else {
+			return false
+		}
+	}
+	
+}

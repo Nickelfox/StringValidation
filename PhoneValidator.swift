@@ -6,16 +6,16 @@
 //
 //
 
+private let phoneRegex = "^\\d{10}$"
+
 public class PhoneValidator: StringValidator {
 	
+	private let regexValidator = RegexValidator(regex: phoneRegex)
+
 	public init() { }
 	
 	public func validate(_ string: String?) -> Bool {
-		guard let string = string else { return false }
-		if string.isValidPhone {
-			return true
-		}
-		return false
+		return self.regexValidator.validate(string)
 	}
 	
 }

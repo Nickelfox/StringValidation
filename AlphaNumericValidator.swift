@@ -6,16 +6,16 @@
 //
 //
 
+private let alphaNumericRegex = "[a-zA-Z0-9]+$"
+
 public class AlphaNumericValidator: StringValidator {
+	
+	private let regexValidator = RegexValidator(regex: alphaNumericRegex)
 	
 	public init() { }
 	
 	public func validate(_ string: String?) -> Bool {
-		guard let string = string else { return false }
-		if string.isAlphaNumeric {
-			return true
-		}
-		return false
+		return self.regexValidator.validate(string)
 	}
 	
 }

@@ -7,16 +7,16 @@
 //
 
 
+private let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+
 public class EmailValidator: StringValidator {
+	
+	private let regexValidator = RegexValidator(regex: emailRegex)
 	
 	public init() { }
 	
 	public func validate(_ string: String?) -> Bool {
-		guard let string = string else { return false }
-		if string.isValidEmail {
-			return true
-		}
-		return false
+		return self.regexValidator.validate(string)
 	}
 	
 }

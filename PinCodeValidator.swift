@@ -6,15 +6,15 @@
 //
 //
 
+private let pinCodeRegex = "\\d{6}"
+
 public class PinCodeValidator: StringValidator {
+	
+	private let regexValidator = RegexValidator(regex: pinCodeRegex)
 	
 	public init() { }
 	
 	public func validate(_ string: String?) -> Bool {
-		guard let string = string else { return false }
-		if string.isValidPinCode {
-			return true
-		}
-		return false
+		return self.regexValidator.validate(string)
 	}
 }
