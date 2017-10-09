@@ -21,8 +21,8 @@ public class UrlValidator: StringValidator {
 
 extension String {
 	public var isValidURL: Bool {
-		if let _ = URL(string: self) {
-			return true
+		if let url = URL(string: self)  {
+			return UIApplication.shared.canOpenURL(url)
 		} else {
 			return false
 		}
