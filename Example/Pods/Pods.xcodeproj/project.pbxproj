@@ -7,105 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11BFF7D2ED5243735D6DAFE7AEEC4BE2 /* StringValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E473565CC695EDDF1EE87EA58F4940B /* StringValidation-dummy.m */; };
-		68C9348CD43DB4180537EE4C8E2DEC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AE8590222EB0C75F1213AA6E2150EE39 /* Pods-StringValidation-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2D08A9E82B48B8AE9C19A515FCD036 /* Pods-StringValidation-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B80C2B05AF6FD815D81901A915655499 /* StringValidation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA0F85CB6CFE3BD03BA9BF369F92798 /* StringValidation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C209AFD084F8ADAE3A96392F3B537120 /* Pods-StringValidation-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C8F6C18DFD4085E55F4E3A74DAA940 /* Pods-StringValidation-Example-dummy.m */; };
-		E3B5B2451F8B64FF0098EC95 /* RegexValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5B2431F8B64DE0098EC95 /* RegexValidator.swift */; };
-		E3B5B2471F8B65C40098EC95 /* AlphabeticValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5B2461F8B65C40098EC95 /* AlphabeticValidator.swift */; };
-		E3B5B2491F8B6B660098EC95 /* NumericValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5B2481F8B6B660098EC95 /* NumericValidator.swift */; };
-		E3D79BD01F88CA7800169897 /* StringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BCC1F88C89200169897 /* StringValidator.swift */; };
-		E3D79BD31F88D23800169897 /* EmptyOrNilValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BD21F88D23800169897 /* EmptyOrNilValidator.swift */; };
-		E3D79BD51F88D27200169897 /* FullNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BD41F88D27100169897 /* FullNameValidator.swift */; };
-		E3D79BD71F88D2AF00169897 /* PartNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BD61F88D2AF00169897 /* PartNameValidator.swift */; };
-		E3D79BDB1F88D2D200169897 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BDA1F88D2D200169897 /* EmailValidator.swift */; };
-		E3D79BDD1F88D2D900169897 /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BDC1F88D2D900169897 /* PhoneValidator.swift */; };
-		E3D79BDF1F88D2ED00169897 /* AlphaNumericValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BDE1F88D2ED00169897 /* AlphaNumericValidator.swift */; };
-		E3D79BE11F88D2F600169897 /* UrlValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BE01F88D2F600169897 /* UrlValidator.swift */; };
-		E3D79BE51F88D32100169897 /* PinCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BE41F88D32100169897 /* PinCodeValidator.swift */; };
-		E3D79BE71F88D32C00169897 /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D79BE61F88D32C00169897 /* CreditCardValidator.swift */; };
-		EE34D67BEF6DF9225586D3EEBDD33EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0104830478F68244D9627F6DC205D940 /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E762BAF4DEF1CDEB4A5D159FE7245 /* MetadataManager.swift */; };
+		0A0E4409D9DAE435A35BAD353F02E60A /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6772C687AC2073631EBB81BB33CE2F /* Formatter.swift */; };
+		0AD2CA95538FFB50D8A171B13D711908 /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749475EAD755682C6FA207B6B986B3B /* PhoneValidator.swift */; };
+		13DEEB3253C9E414E423ED3413147387 /* AlphabeticValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC962999E77A8636FFD6AC562A8441 /* AlphabeticValidator.swift */; };
+		13F2F0C7185D22DB84F76C0F277C9E90 /* Pods-StringValidation-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2D08A9E82B48B8AE9C19A515FCD036 /* Pods-StringValidation-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1898420E130A97E53C839383371A76D9 /* AlphaNumericValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938AEFA440B384681E8B508FAC6867E /* AlphaNumericValidator.swift */; };
+		1CB92D531DEB8F5DCAB0790BE82D056C /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13731424914E3A63F88BBA988CEAF2E /* EmailValidator.swift */; };
+		1E34607A71922ADAF621033F63F0EC62 /* Pods-StringValidation-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C8F6C18DFD4085E55F4E3A74DAA940 /* Pods-StringValidation-Example-dummy.m */; };
+		1FF13E5AD6991683738D7ED93D6DAB5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647176DEADFA382050BCF26A9189BE8B /* Foundation.framework */; };
+		345550ECBA5ABA4FF86DCB480D4A3A58 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD43FD5308A03815C850CEF37986E2 /* PhoneNumberParser.swift */; };
+		3EC7E27002EFC43CF247859277518416 /* EmptyOrNilValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F07C7ACA1872D8EBB47CBC7BA3720 /* EmptyOrNilValidator.swift */; };
+		3FD5743542B5305D0B132F396B61829E /* FullNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E7511B2E8214FF7F05FE8F6D56DE70 /* FullNameValidator.swift */; };
+		47076B651BCF68DCE9785286E54D1025 /* NumericValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7932FBD83BA4ED7A0C05024E08952E7D /* NumericValidator.swift */; };
+		495F739C4B3199054657CE14F6E4F640 /* StringValidation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A298AFC138BACBE2B60A0F4284BA2944 /* StringValidation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9F1A87FA2940B18DBD32B0180D50FA /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = FB66E6B42D4CFB025E0815123D987E60 /* PhoneNumberMetadata.json */; };
+		56C02636FE2AD5E17689FF7057C060B6 /* PartNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EA4053D6F9D2746CD7813E6856269B /* PartNameValidator.swift */; };
+		599FCB585BC9E290ED412A0633E2CE0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647176DEADFA382050BCF26A9189BE8B /* Foundation.framework */; };
+		5F74DB5E632AB8F370CADB9A57A62905 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D92BD9E8D294BBA9090C044AB8646E /* ParseManager.swift */; };
+		61536BB30EC36D7AC1845CDBCA394763 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FFF8EBF42A8B8F1F12417BE6F53B99 /* CoreTelephony.framework */; };
+		7A34CCB13160FA1B0996516652D6F072 /* StringValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410EB9AE88FEF8F60645396EDEE42653 /* StringValidation-dummy.m */; };
+		82CE518BA4E912AD08C029CC8F3A158A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647176DEADFA382050BCF26A9189BE8B /* Foundation.framework */; };
+		8E1BC2B6E997C1C6BF94923FF36018AA /* PinCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6338905F7B9E9821D64371510A6989A0 /* PinCodeValidator.swift */; };
+		9BF0B3132715704E433B205423D73740 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0A9EB42E2625AB4DB78C95367E03C4 /* Constants.swift */; };
+		9C8BF7D4C243818BF3FBF03E54F44295 /* PhoneNumberKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DE95FD3647803DA8B888724C301256 /* PhoneNumberKit-dummy.m */; };
+		9D6B2654639E3556A4BFDABD1A9E0DB2 /* StringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCE8D6A52414502C76C0FC0C99C1602 /* StringValidator.swift */; };
+		AECF93568D922159B76A632196FCA6E9 /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB382A1DC9D47BEB3291275AF328F7CC /* NSRegularExpression+Swift.swift */; };
+		B6EADA01029546ADA5D4718F1471799C /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388C782FFA79D727AA25F000AD2E41A1 /* PhoneNumber.swift */; };
+		D4D11238776F6517BE1E5BF70ABBF452 /* PhoneNumberKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D58E392E3EA034359BFCB85AEE7BA8 /* PhoneNumberKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D83522A96EB0E8AC32E66D149A4C7D13 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A83824798AC6A74FA5235279068643 /* MetadataTypes.swift */; };
+		DE87772D0326DEAF829899C88A0E2830 /* UrlValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25245DBED37DE4633F7C51D8BD033D97 /* UrlValidator.swift */; };
+		E0C7BB4D25B9BB6C9869E4ABBFF067F8 /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6276EF316F02FEB20ECC3683A3C057C /* CreditCardValidator.swift */; };
+		E2CDF70ADCB177E5A75995E34BF537A1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA60CF11D4BDB789602A403BE2B34D2A /* TextField.swift */; };
+		E6B3B198C6DB4BB7613F33E5D8907B01 /* RegexValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22656EA7264C59F1837191E9459F53 /* RegexValidator.swift */; };
+		F075F071E86460A7E8230A1BA776C7FE /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78F3472F0B2D5082E59175104F79344 /* PhoneNumberKit.framework */; };
+		F0AAC8C0A171F5D16D5CC4EDFCFD3AA1 /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36CE678C8F08A96CB071E1F6D174181 /* RegexManager.swift */; };
+		F3471ADCD4C3F3995D27362A2DA5054A /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BB60694F548C06D99DC06C1C63075 /* PhoneNumberKit.swift */; };
+		FD2E20B69C2E19818E62F6570D93917C /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D17CEFA7CA0EA8CDEB2502FC249B1 /* PartialFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C36C31A8C311A76543F604F419D58C49 /* PBXContainerItemProxy */ = {
+		06664849DA9B4721EF00FE23397F1A69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5A4A84CBB2402F3DB5FB95C7B5F41198;
+			remoteGlobalIDString = 4C0BE86D28047544F8EC9A6615027F09;
 			remoteInfo = StringValidation;
+		};
+		278447A8E421CC8992508574B5948F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5BD10883BD185426DD737247F56DEC;
+			remoteInfo = PhoneNumberKit;
+		};
+		6DB9FDE4F18E14BF948D19895CAD68E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5BD10883BD185426DD737247F56DEC;
+			remoteInfo = PhoneNumberKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0316E4E6A166ED99D771227A1122E045 /* PhoneNumberKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-prefix.pch"; sourceTree = "<group>"; };
+		06BD43FD5308A03815C850CEF37986E2 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
 		0878F8A2508CEBB5DC9865C888163060 /* Pods-StringValidation-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StringValidation-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E0CB2FCE6B9D0570E0914252C39BD43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BA0F85CB6CFE3BD03BA9BF369F92798 /* StringValidation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StringValidation-umbrella.h"; sourceTree = "<group>"; };
 		1D645A8FCD9A620342BD7D3C55F8BE8A /* Pods-StringValidation-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StringValidation-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		25245DBED37DE4633F7C51D8BD033D97 /* UrlValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UrlValidator.swift; path = Source/Classes/StringValidation/UrlValidator.swift; sourceTree = "<group>"; };
+		2723FDE62191D8F72416462405D5C6DE /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PhoneNumberKit.framework; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B90D1E1EC90DE92D60B5B4B3039BF1E /* StringValidation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = StringValidation.modulemap; sourceTree = "<group>"; };
 		2EC5831B37ADF349AC76949F2D101411 /* Pods-StringValidation-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StringValidation-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33C8F6C18DFD4085E55F4E3A74DAA940 /* Pods-StringValidation-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StringValidation-Example-dummy.m"; sourceTree = "<group>"; };
+		36D92BD9E8D294BBA9090C044AB8646E /* ParseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
+		36FFF8EBF42A8B8F1F12417BE6F53B99 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		388C782FFA79D727AA25F000AD2E41A1 /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
+		399466D5102493C54C90B501ABA95AAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C70990F7C6A641AF32824CC4FD7CA22 /* StringValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StringValidation.framework; path = StringValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6772C687AC2073631EBB81BB33CE2F /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
+		410EB9AE88FEF8F60645396EDEE42653 /* StringValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StringValidation-dummy.m"; sourceTree = "<group>"; };
+		450D17CEFA7CA0EA8CDEB2502FC249B1 /* PartialFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
+		51DE95FD3647803DA8B888724C301256 /* PhoneNumberKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhoneNumberKit-dummy.m"; sourceTree = "<group>"; };
+		520F07C7ACA1872D8EBB47CBC7BA3720 /* EmptyOrNilValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyOrNilValidator.swift; path = Source/Classes/StringValidation/EmptyOrNilValidator.swift; sourceTree = "<group>"; };
+		61552E67AE321061EA8D2771C22CEF20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F338B6050F47CE1430A54A28B7F446 /* Pods-StringValidation-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StringValidation-Example-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75AC361FFBD6C581CB9A6C33FACF9061 /* StringValidation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StringValidation.xcconfig; sourceTree = "<group>"; };
-		7E12219321ADF2F08BAA73631CD5C2F0 /* StringValidation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StringValidation-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6338905F7B9E9821D64371510A6989A0 /* PinCodeValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinCodeValidator.swift; path = Source/Classes/StringValidation/PinCodeValidator.swift; sourceTree = "<group>"; };
+		647176DEADFA382050BCF26A9189BE8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7932FBD83BA4ED7A0C05024E08952E7D /* NumericValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericValidator.swift; path = Source/Classes/StringValidation/NumericValidator.swift; sourceTree = "<group>"; };
+		7BCC962999E77A8636FFD6AC562A8441 /* AlphabeticValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphabeticValidator.swift; path = Source/Classes/StringValidation/AlphabeticValidator.swift; sourceTree = "<group>"; };
+		8938AEFA440B384681E8B508FAC6867E /* AlphaNumericValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaNumericValidator.swift; path = Source/Classes/StringValidation/AlphaNumericValidator.swift; sourceTree = "<group>"; };
+		8DBB47E7EBB82F9BA5EA8B8A1486D94B /* StringValidation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StringValidation-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EA4053D6F9D2746CD7813E6856269B /* PartNameValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartNameValidator.swift; path = Source/Classes/StringValidation/PartNameValidator.swift; sourceTree = "<group>"; };
+		97A83824798AC6A74FA5235279068643 /* MetadataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
 		9917DA0D7EFC88A47C8BBF1A461A5929 /* Pods-StringValidation-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StringValidation-Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D2D08A9E82B48B8AE9C19A515FCD036 /* Pods-StringValidation-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StringValidation-Example-umbrella.h"; sourceTree = "<group>"; };
-		9E473565CC695EDDF1EE87EA58F4940B /* StringValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StringValidation-dummy.m"; sourceTree = "<group>"; };
+		9D5B3762F2879BAF0C070AF1869223CF /* PhoneNumberKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PhoneNumberKit.modulemap; sourceTree = "<group>"; };
+		9EAC7AC4291985780F96CF59A8CB3C7D /* PhoneNumberKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhoneNumberKit.xcconfig; sourceTree = "<group>"; };
 		9FE5A78E495C2CA5D97ABEA2399038BA /* Pods-StringValidation-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StringValidation-Example-resources.sh"; sourceTree = "<group>"; };
-		AEBEC3DAE1D0C4495BFA3CC3F66D9511 /* StringValidation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StringValidation.modulemap; sourceTree = "<group>"; };
-		B72FFEA5952A61A451815643F090A0CD /* StringValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StringValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC0FA08AA4130B86F02BFA2BBC0439AB /* Pods-StringValidation-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StringValidation-Example.modulemap"; sourceTree = "<group>"; };
-		DB9033D3F84D06A6846EFFEBC9D2CB06 /* Pods_StringValidation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StringValidation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3B5B2431F8B64DE0098EC95 /* RegexValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexValidator.swift; sourceTree = "<group>"; };
-		E3B5B2461F8B65C40098EC95 /* AlphabeticValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphabeticValidator.swift; sourceTree = "<group>"; };
-		E3B5B2481F8B6B660098EC95 /* NumericValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericValidator.swift; sourceTree = "<group>"; };
-		E3D79BCC1F88C89200169897 /* StringValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringValidator.swift; path = Source/Classes/StringValidation/StringValidator.swift; sourceTree = "<group>"; };
-		E3D79BD21F88D23800169897 /* EmptyOrNilValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmptyOrNilValidator.swift; path = Source/Classes/StringValidation/EmptyOrNilValidator.swift; sourceTree = "<group>"; };
-		E3D79BD41F88D27100169897 /* FullNameValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullNameValidator.swift; sourceTree = "<group>"; };
-		E3D79BD61F88D2AF00169897 /* PartNameValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartNameValidator.swift; sourceTree = "<group>"; };
-		E3D79BDA1F88D2D200169897 /* EmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
-		E3D79BDC1F88D2D900169897 /* PhoneValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
-		E3D79BDE1F88D2ED00169897 /* AlphaNumericValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlphaNumericValidator.swift; sourceTree = "<group>"; };
-		E3D79BE01F88D2F600169897 /* UrlValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlValidator.swift; sourceTree = "<group>"; };
-		E3D79BE41F88D32100169897 /* PinCodeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinCodeValidator.swift; sourceTree = "<group>"; };
-		E3D79BE61F88D32C00169897 /* CreditCardValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardValidator.swift; sourceTree = "<group>"; };
-		EE17461F6CD64D9A62534F4DBAB0B85D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A298AFC138BACBE2B60A0F4284BA2944 /* StringValidation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StringValidation-umbrella.h"; sourceTree = "<group>"; };
+		A30BB60694F548C06D99DC06C1C63075 /* PhoneNumberKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
+		A36CE678C8F08A96CB071E1F6D174181 /* RegexManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexManager.swift; path = PhoneNumberKit/RegexManager.swift; sourceTree = "<group>"; };
+		A6276EF316F02FEB20ECC3683A3C057C /* CreditCardValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidator.swift; path = Source/Classes/StringValidation/CreditCardValidator.swift; sourceTree = "<group>"; };
+		A88E762BAF4DEF1CDEB4A5D159FE7245 /* MetadataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataManager.swift; path = PhoneNumberKit/MetadataManager.swift; sourceTree = "<group>"; };
+		B2E7511B2E8214FF7F05FE8F6D56DE70 /* FullNameValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullNameValidator.swift; path = Source/Classes/StringValidation/FullNameValidator.swift; sourceTree = "<group>"; };
+		B78F3472F0B2D5082E59175104F79344 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0A9EB42E2625AB4DB78C95367E03C4 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
+		C13731424914E3A63F88BBA988CEAF2E /* EmailValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailValidator.swift; path = Source/Classes/StringValidation/EmailValidator.swift; sourceTree = "<group>"; };
+		CC0FA08AA4130B86F02BFA2BBC0439AB /* Pods-StringValidation-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StringValidation-Example.modulemap"; sourceTree = "<group>"; };
+		D749475EAD755682C6FA207B6B986B3B /* PhoneValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneValidator.swift; path = Source/Classes/StringValidation/PhoneValidator.swift; sourceTree = "<group>"; };
+		DA60CF11D4BDB789602A403BE2B34D2A /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = PhoneNumberKit/UI/TextField.swift; sourceTree = "<group>"; };
+		DB382A1DC9D47BEB3291275AF328F7CC /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Swift.swift"; path = "PhoneNumberKit/NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
+		DB3CFB4DFF155313B77E3AC17DD4FE9B /* Pods_StringValidation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StringValidation_Example.framework; path = "Pods-StringValidation-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCE8D6A52414502C76C0FC0C99C1602 /* StringValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringValidator.swift; path = Source/Classes/StringValidation/StringValidator.swift; sourceTree = "<group>"; };
+		EE22656EA7264C59F1837191E9459F53 /* RegexValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexValidator.swift; path = Source/Classes/StringValidation/RegexValidator.swift; sourceTree = "<group>"; };
+		F1D58E392E3EA034359BFCB85AEE7BA8 /* PhoneNumberKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-umbrella.h"; sourceTree = "<group>"; };
+		F9CD4468F11092258771A898EBF8F987 /* StringValidation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StringValidation.xcconfig; sourceTree = "<group>"; };
+		FB66E6B42D4CFB025E0815123D987E60 /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; name = PhoneNumberMetadata.json; path = PhoneNumberKit/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA5809A53A304CCF1732ED1B93509EF5 /* Frameworks */ = {
+		1E75837CCD9E8BA4FF191F6F89BB885C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C9348CD43DB4180537EE4C8E2DEC98 /* Foundation.framework in Frameworks */,
+				82CE518BA4E912AD08C029CC8F3A158A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E77963C723AAF3DE79BCCECEBF5F054B /* Frameworks */ = {
+		761554F5306F577313F35D0C045A5B68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE34D67BEF6DF9225586D3EEBDD33EA3 /* Foundation.framework in Frameworks */,
+				61536BB30EC36D7AC1845CDBCA394763 /* CoreTelephony.framework in Frameworks */,
+				599FCB585BC9E290ED412A0633E2CE0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE78D67C174EEC9B5FF5BCEA0BE630B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF13E5AD6991683738D7ED93D6DAB5A /* Foundation.framework in Frameworks */,
+				F075F071E86460A7E8230A1BA776C7FE /* PhoneNumberKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B945B115A5B43ACA2BFABEAFD729AC1 /* Support Files */ = {
+		2DC16D2A89E4FED040871527C6CBCAD6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE17461F6CD64D9A62534F4DBAB0B85D /* Info.plist */,
-				AEBEC3DAE1D0C4495BFA3CC3F66D9511 /* StringValidation.modulemap */,
-				75AC361FFBD6C581CB9A6C33FACF9061 /* StringValidation.xcconfig */,
-				9E473565CC695EDDF1EE87EA58F4940B /* StringValidation-dummy.m */,
-				7E12219321ADF2F08BAA73631CD5C2F0 /* StringValidation-prefix.pch */,
-				1BA0F85CB6CFE3BD03BA9BF369F92798 /* StringValidation-umbrella.h */,
+				B78F3472F0B2D5082E59175104F79344 /* PhoneNumberKit.framework */,
+				F0C8EB51AA3F6860A74221722758DD41 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/StringValidation";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		33CC873EEC58594E1DFA66442F5C3D75 /* Targets Support Files */ = {
@@ -116,46 +175,116 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6DD7B2873161A1A4E409799508A4FBF0 /* Products */ = {
+		3DED061D69B7968B1E1E9ADD352F0E37 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DB9033D3F84D06A6846EFFEBC9D2CB06 /* Pods_StringValidation_Example.framework */,
-				B72FFEA5952A61A451815643F090A0CD /* StringValidation.framework */,
+				B22156ADD8E0776F11D76517FCC0BCDA /* PhoneNumberKit */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D131F9248B6C4061432B9C2BE880408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB66E6B42D4CFB025E0815123D987E60 /* PhoneNumberMetadata.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		788D83193052FD37DE9E096A9B39E9B2 /* StringValidation */ = {
+			isa = PBXGroup;
+			children = (
+				7BCC962999E77A8636FFD6AC562A8441 /* AlphabeticValidator.swift */,
+				8938AEFA440B384681E8B508FAC6867E /* AlphaNumericValidator.swift */,
+				A6276EF316F02FEB20ECC3683A3C057C /* CreditCardValidator.swift */,
+				C13731424914E3A63F88BBA988CEAF2E /* EmailValidator.swift */,
+				520F07C7ACA1872D8EBB47CBC7BA3720 /* EmptyOrNilValidator.swift */,
+				B2E7511B2E8214FF7F05FE8F6D56DE70 /* FullNameValidator.swift */,
+				7932FBD83BA4ED7A0C05024E08952E7D /* NumericValidator.swift */,
+				95EA4053D6F9D2746CD7813E6856269B /* PartNameValidator.swift */,
+				D749475EAD755682C6FA207B6B986B3B /* PhoneValidator.swift */,
+				6338905F7B9E9821D64371510A6989A0 /* PinCodeValidator.swift */,
+				EE22656EA7264C59F1837191E9459F53 /* RegexValidator.swift */,
+				EBCE8D6A52414502C76C0FC0C99C1602 /* StringValidator.swift */,
+				25245DBED37DE4633F7C51D8BD033D97 /* UrlValidator.swift */,
+				D8DE2140645959603269BD6B21F856FE /* Support Files */,
+			);
+			name = StringValidation;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D5E455FAAC10C97D8B2FB1C9671FC6EC /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6DD7B2873161A1A4E409799508A4FBF0 /* Products */,
+				F660B26C9F03EC154E97B38483A3AC68 /* Development Pods */,
+				2DC16D2A89E4FED040871527C6CBCAD6 /* Frameworks */,
+				3DED061D69B7968B1E1E9ADD352F0E37 /* Pods */,
+				A8CCCC3554989866D0E572C44CE1DEBA /* Products */,
 				33CC873EEC58594E1DFA66442F5C3D75 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F9239B7DB1A8704B22EF1F64044C639 /* StringValidation */ = {
+		8FF46B519872C8A04D10957ED5348F4F /* PhoneNumberKitCore */ = {
 			isa = PBXGroup;
 			children = (
-				E3D79BCC1F88C89200169897 /* StringValidator.swift */,
-				1B945B115A5B43ACA2BFABEAFD729AC1 /* Support Files */,
-				E3D79BD21F88D23800169897 /* EmptyOrNilValidator.swift */,
-				E3D79BD41F88D27100169897 /* FullNameValidator.swift */,
-				E3D79BD61F88D2AF00169897 /* PartNameValidator.swift */,
-				E3D79BDA1F88D2D200169897 /* EmailValidator.swift */,
-				E3D79BDC1F88D2D900169897 /* PhoneValidator.swift */,
-				E3D79BDE1F88D2ED00169897 /* AlphaNumericValidator.swift */,
-				E3B5B2481F8B6B660098EC95 /* NumericValidator.swift */,
-				E3D79BE01F88D2F600169897 /* UrlValidator.swift */,
-				E3D79BE41F88D32100169897 /* PinCodeValidator.swift */,
-				E3D79BE61F88D32C00169897 /* CreditCardValidator.swift */,
-				E3B5B2431F8B64DE0098EC95 /* RegexValidator.swift */,
-				E3B5B2461F8B65C40098EC95 /* AlphabeticValidator.swift */,
+				BB0A9EB42E2625AB4DB78C95367E03C4 /* Constants.swift */,
+				3F6772C687AC2073631EBB81BB33CE2F /* Formatter.swift */,
+				A88E762BAF4DEF1CDEB4A5D159FE7245 /* MetadataManager.swift */,
+				97A83824798AC6A74FA5235279068643 /* MetadataTypes.swift */,
+				DB382A1DC9D47BEB3291275AF328F7CC /* NSRegularExpression+Swift.swift */,
+				36D92BD9E8D294BBA9090C044AB8646E /* ParseManager.swift */,
+				450D17CEFA7CA0EA8CDEB2502FC249B1 /* PartialFormatter.swift */,
+				388C782FFA79D727AA25F000AD2E41A1 /* PhoneNumber.swift */,
+				A30BB60694F548C06D99DC06C1C63075 /* PhoneNumberKit.swift */,
+				06BD43FD5308A03815C850CEF37986E2 /* PhoneNumberParser.swift */,
+				A36CE678C8F08A96CB071E1F6D174181 /* RegexManager.swift */,
+				4D131F9248B6C4061432B9C2BE880408 /* Resources */,
 			);
-			name = StringValidation;
-			path = ../..;
+			name = PhoneNumberKitCore;
+			sourceTree = "<group>";
+		};
+		9D73A46D64A596FE93E9E5FA219576C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61552E67AE321061EA8D2771C22CEF20 /* Info.plist */,
+				9D5B3762F2879BAF0C070AF1869223CF /* PhoneNumberKit.modulemap */,
+				9EAC7AC4291985780F96CF59A8CB3C7D /* PhoneNumberKit.xcconfig */,
+				51DE95FD3647803DA8B888724C301256 /* PhoneNumberKit-dummy.m */,
+				0316E4E6A166ED99D771227A1122E045 /* PhoneNumberKit-prefix.pch */,
+				F1D58E392E3EA034359BFCB85AEE7BA8 /* PhoneNumberKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PhoneNumberKit";
+			sourceTree = "<group>";
+		};
+		A6AE5D6F5035B195A5AE6CEB8918D04F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA60CF11D4BDB789602A403BE2B34D2A /* TextField.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		A8CCCC3554989866D0E572C44CE1DEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2723FDE62191D8F72416462405D5C6DE /* PhoneNumberKit.framework */,
+				DB3CFB4DFF155313B77E3AC17DD4FE9B /* Pods_StringValidation_Example.framework */,
+				3C70990F7C6A641AF32824CC4FD7CA22 /* StringValidation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22156ADD8E0776F11D76517FCC0BCDA /* PhoneNumberKit */ = {
+			isa = PBXGroup;
+			children = (
+				8FF46B519872C8A04D10957ED5348F4F /* PhoneNumberKitCore */,
+				9D73A46D64A596FE93E9E5FA219576C1 /* Support Files */,
+				A6AE5D6F5035B195A5AE6CEB8918D04F /* UIKit */,
+			);
+			name = PhoneNumberKit;
+			path = PhoneNumberKit;
 			sourceTree = "<group>";
 		};
 		B99D8BD398BB433F37329ACD007D8B0F /* Pods-StringValidation-Example */ = {
@@ -176,26 +305,33 @@
 			path = "Target Support Files/Pods-StringValidation-Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D8DE2140645959603269BD6B21F856FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				399466D5102493C54C90B501ABA95AAC /* Info.plist */,
+				2B90D1E1EC90DE92D60B5B4B3039BF1E /* StringValidation.modulemap */,
+				F9CD4468F11092258771A898EBF8F987 /* StringValidation.xcconfig */,
+				410EB9AE88FEF8F60645396EDEE42653 /* StringValidation-dummy.m */,
+				8DBB47E7EBB82F9BA5EA8B8A1486D94B /* StringValidation-prefix.pch */,
+				A298AFC138BACBE2B60A0F4284BA2944 /* StringValidation-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StringValidation";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		F0C8EB51AA3F6860A74221722758DD41 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				36FFF8EBF42A8B8F1F12417BE6F53B99 /* CoreTelephony.framework */,
+				647176DEADFA382050BCF26A9189BE8B /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D5E455FAAC10C97D8B2FB1C9671FC6EC /* Development Pods */ = {
+		F660B26C9F03EC154E97B38483A3AC68 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F9239B7DB1A8704B22EF1F64044C639 /* StringValidation */,
+				788D83193052FD37DE9E096A9B39E9B2 /* StringValidation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -203,58 +339,86 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		62B2D2F57FBF672D61B648D0B22F7257 /* Headers */ = {
+		10598B309001A2740406DD08D63CFD29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80C2B05AF6FD815D81901A915655499 /* StringValidation-umbrella.h in Headers */,
+				495F739C4B3199054657CE14F6E4F640 /* StringValidation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9C0587B1A00035C5ED4FF0BC7FE091B /* Headers */ = {
+		612DA4F2CDEDBCB2583206744F8261FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8590222EB0C75F1213AA6E2150EE39 /* Pods-StringValidation-Example-umbrella.h in Headers */,
+				D4D11238776F6517BE1E5BF70ABBF452 /* PhoneNumberKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C6C9C37FA8B847E7648CE6893AE461 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F2F0C7185D22DB84F76C0F277C9E90 /* Pods-StringValidation-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5A4A84CBB2402F3DB5FB95C7B5F41198 /* StringValidation */ = {
+		4C0BE86D28047544F8EC9A6615027F09 /* StringValidation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 483D5C16C523E5213D5AFD8C434CE8F0 /* Build configuration list for PBXNativeTarget "StringValidation" */;
+			buildConfigurationList = ECC311C35F7E3C62D4688546ABF992F3 /* Build configuration list for PBXNativeTarget "StringValidation" */;
 			buildPhases = (
-				A5934AEB8EF662ECDE9901284EEF2D7E /* Sources */,
-				E77963C723AAF3DE79BCCECEBF5F054B /* Frameworks */,
-				62B2D2F57FBF672D61B648D0B22F7257 /* Headers */,
+				CDE0C50BE69604A65308B639A0675700 /* Sources */,
+				9AE78D67C174EEC9B5FF5BCEA0BE630B /* Frameworks */,
+				10598B309001A2740406DD08D63CFD29 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0CB0E9742301D20EB7C5330E55868680 /* PBXTargetDependency */,
 			);
 			name = StringValidation;
 			productName = StringValidation;
-			productReference = B72FFEA5952A61A451815643F090A0CD /* StringValidation.framework */;
+			productReference = 3C70990F7C6A641AF32824CC4FD7CA22 /* StringValidation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E60380F14414C99B452DA6099E822DF7 /* Pods-StringValidation-Example */ = {
+		8C5BD10883BD185426DD737247F56DEC /* PhoneNumberKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 039C23F1CEF5CBC59394E7DB09F298AB /* Build configuration list for PBXNativeTarget "Pods-StringValidation-Example" */;
+			buildConfigurationList = 3F4E77E187323925C213C1CC2B08B8EE /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */;
 			buildPhases = (
-				FE30DE73C948A104016C5E71977460B3 /* Sources */,
-				BA5809A53A304CCF1732ED1B93509EF5 /* Frameworks */,
-				E9C0587B1A00035C5ED4FF0BC7FE091B /* Headers */,
+				40A1A161C36FB0F117E787D104E63CA4 /* Sources */,
+				761554F5306F577313F35D0C045A5B68 /* Frameworks */,
+				EF757B2E17FAF1F21EEAE31D8154A852 /* Resources */,
+				612DA4F2CDEDBCB2583206744F8261FC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C3E14936350DD2EEC412E7D06243609B /* PBXTargetDependency */,
+			);
+			name = PhoneNumberKit;
+			productName = PhoneNumberKit;
+			productReference = 2723FDE62191D8F72416462405D5C6DE /* PhoneNumberKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B870ADAA404F1D4C075E037D26C67865 /* Pods-StringValidation-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1D18B1651552EEC3CB0457B59C3F10 /* Build configuration list for PBXNativeTarget "Pods-StringValidation-Example" */;
+			buildPhases = (
+				D02FB3F5B03F9A9A2B30202639DE7D94 /* Sources */,
+				1E75837CCD9E8BA4FF191F6F89BB885C /* Frameworks */,
+				B4C6C9C37FA8B847E7648CE6893AE461 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2722A28779957B610EACED334B7A88 /* PBXTargetDependency */,
+				45548A7E6658156F97850B9E9C5FC4B4 /* PBXTargetDependency */,
 			);
 			name = "Pods-StringValidation-Example";
 			productName = "Pods-StringValidation-Example";
-			productReference = DB9033D3F84D06A6846EFFEBC9D2CB06 /* Pods_StringValidation_Example.framework */;
+			productReference = DB3CFB4DFF155313B77E3AC17DD4FE9B /* Pods_StringValidation_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -265,11 +429,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					E60380F14414C99B452DA6099E822DF7 = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -279,58 +438,165 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6DD7B2873161A1A4E409799508A4FBF0 /* Products */;
+			productRefGroup = A8CCCC3554989866D0E572C44CE1DEBA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E60380F14414C99B452DA6099E822DF7 /* Pods-StringValidation-Example */,
-				5A4A84CBB2402F3DB5FB95C7B5F41198 /* StringValidation */,
+				8C5BD10883BD185426DD737247F56DEC /* PhoneNumberKit */,
+				B870ADAA404F1D4C075E037D26C67865 /* Pods-StringValidation-Example */,
+				4C0BE86D28047544F8EC9A6615027F09 /* StringValidation */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		A5934AEB8EF662ECDE9901284EEF2D7E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		EF757B2E17FAF1F21EEAE31D8154A852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3D79BD31F88D23800169897 /* EmptyOrNilValidator.swift in Sources */,
-				E3B5B2491F8B6B660098EC95 /* NumericValidator.swift in Sources */,
-				E3D79BE51F88D32100169897 /* PinCodeValidator.swift in Sources */,
-				E3D79BE71F88D32C00169897 /* CreditCardValidator.swift in Sources */,
-				E3D79BD71F88D2AF00169897 /* PartNameValidator.swift in Sources */,
-				E3B5B2451F8B64FF0098EC95 /* RegexValidator.swift in Sources */,
-				E3D79BE11F88D2F600169897 /* UrlValidator.swift in Sources */,
-				E3B5B2471F8B65C40098EC95 /* AlphabeticValidator.swift in Sources */,
-				E3D79BD51F88D27200169897 /* FullNameValidator.swift in Sources */,
-				E3D79BDB1F88D2D200169897 /* EmailValidator.swift in Sources */,
-				11BFF7D2ED5243735D6DAFE7AEEC4BE2 /* StringValidation-dummy.m in Sources */,
-				E3D79BDD1F88D2D900169897 /* PhoneValidator.swift in Sources */,
-				E3D79BD01F88CA7800169897 /* StringValidator.swift in Sources */,
-				E3D79BDF1F88D2ED00169897 /* AlphaNumericValidator.swift in Sources */,
+				4F9F1A87FA2940B18DBD32B0180D50FA /* PhoneNumberMetadata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE30DE73C948A104016C5E71977460B3 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A1A161C36FB0F117E787D104E63CA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C209AFD084F8ADAE3A96392F3B537120 /* Pods-StringValidation-Example-dummy.m in Sources */,
+				9BF0B3132715704E433B205423D73740 /* Constants.swift in Sources */,
+				0A0E4409D9DAE435A35BAD353F02E60A /* Formatter.swift in Sources */,
+				0104830478F68244D9627F6DC205D940 /* MetadataManager.swift in Sources */,
+				D83522A96EB0E8AC32E66D149A4C7D13 /* MetadataTypes.swift in Sources */,
+				AECF93568D922159B76A632196FCA6E9 /* NSRegularExpression+Swift.swift in Sources */,
+				5F74DB5E632AB8F370CADB9A57A62905 /* ParseManager.swift in Sources */,
+				FD2E20B69C2E19818E62F6570D93917C /* PartialFormatter.swift in Sources */,
+				B6EADA01029546ADA5D4718F1471799C /* PhoneNumber.swift in Sources */,
+				9C8BF7D4C243818BF3FBF03E54F44295 /* PhoneNumberKit-dummy.m in Sources */,
+				F3471ADCD4C3F3995D27362A2DA5054A /* PhoneNumberKit.swift in Sources */,
+				345550ECBA5ABA4FF86DCB480D4A3A58 /* PhoneNumberParser.swift in Sources */,
+				F0AAC8C0A171F5D16D5CC4EDFCFD3AA1 /* RegexManager.swift in Sources */,
+				E2CDF70ADCB177E5A75995E34BF537A1 /* TextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE0C50BE69604A65308B639A0675700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DEEB3253C9E414E423ED3413147387 /* AlphabeticValidator.swift in Sources */,
+				1898420E130A97E53C839383371A76D9 /* AlphaNumericValidator.swift in Sources */,
+				E0C7BB4D25B9BB6C9869E4ABBFF067F8 /* CreditCardValidator.swift in Sources */,
+				1CB92D531DEB8F5DCAB0790BE82D056C /* EmailValidator.swift in Sources */,
+				3EC7E27002EFC43CF247859277518416 /* EmptyOrNilValidator.swift in Sources */,
+				3FD5743542B5305D0B132F396B61829E /* FullNameValidator.swift in Sources */,
+				47076B651BCF68DCE9785286E54D1025 /* NumericValidator.swift in Sources */,
+				56C02636FE2AD5E17689FF7057C060B6 /* PartNameValidator.swift in Sources */,
+				0AD2CA95538FFB50D8A171B13D711908 /* PhoneValidator.swift in Sources */,
+				8E1BC2B6E997C1C6BF94923FF36018AA /* PinCodeValidator.swift in Sources */,
+				E6B3B198C6DB4BB7613F33E5D8907B01 /* RegexValidator.swift in Sources */,
+				7A34CCB13160FA1B0996516652D6F072 /* StringValidation-dummy.m in Sources */,
+				9D6B2654639E3556A4BFDABD1A9E0DB2 /* StringValidator.swift in Sources */,
+				DE87772D0326DEAF829899C88A0E2830 /* UrlValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02FB3F5B03F9A9A2B30202639DE7D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E34607A71922ADAF621033F63F0EC62 /* Pods-StringValidation-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C3E14936350DD2EEC412E7D06243609B /* PBXTargetDependency */ = {
+		0CB0E9742301D20EB7C5330E55868680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneNumberKit;
+			target = 8C5BD10883BD185426DD737247F56DEC /* PhoneNumberKit */;
+			targetProxy = 6DB9FDE4F18E14BF948D19895CAD68E3 /* PBXContainerItemProxy */;
+		};
+		2E2722A28779957B610EACED334B7A88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneNumberKit;
+			target = 8C5BD10883BD185426DD737247F56DEC /* PhoneNumberKit */;
+			targetProxy = 278447A8E421CC8992508574B5948F05 /* PBXContainerItemProxy */;
+		};
+		45548A7E6658156F97850B9E9C5FC4B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StringValidation;
-			target = 5A4A84CBB2402F3DB5FB95C7B5F41198 /* StringValidation */;
-			targetProxy = C36C31A8C311A76543F604F419D58C49 /* PBXContainerItemProxy */;
+			target = 4C0BE86D28047544F8EC9A6615027F09 /* StringValidation */;
+			targetProxy = 06664849DA9B4721EF00FE23397F1A69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		178D7263DD2560358FD9BF2AA9199E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAC7AC4291985780F96CF59A8CB3C7D /* PhoneNumberKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C7FD339129658D91FC7BDCA30709249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CD4468F11092258771A898EBF8F987 /* StringValidation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StringValidation/StringValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StringValidation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StringValidation/StringValidation.modulemap";
+				PRODUCT_NAME = StringValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6F9224530522DD3C735EC96CF142642E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,9 +652,9 @@
 			};
 			name = Release;
 		};
-		7320AFB3A71D6E1E53518BDFD579E4D5 /* Debug */ = {
+		7F042A3B2FD185829E1E3A91ED089805 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75AC361FFBD6C581CB9A6C33FACF9061 /* StringValidation.xcconfig */;
+			baseConfigurationReference = 9EAC7AC4291985780F96CF59A8CB3C7D /* PhoneNumberKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -399,44 +665,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StringValidation/StringValidation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StringValidation/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StringValidation/StringValidation.modulemap";
-				PRODUCT_NAME = StringValidation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A6590E9D2C8CAAE0CF1C7FBDB4B32CA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75AC361FFBD6C581CB9A6C33FACF9061 /* StringValidation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StringValidation/StringValidation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StringValidation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StringValidation/StringValidation.modulemap";
-				PRODUCT_NAME = StringValidation;
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				PRODUCT_NAME = PhoneNumberKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -509,11 +744,10 @@
 			};
 			name = Debug;
 		};
-		F2E892C9EB4190E2010BA9B7C0DE68A0 /* Release */ = {
+		BD5DE5A2B6189AB7CC58853D39EEBDB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9917DA0D7EFC88A47C8BBF1A461A5929 /* Pods-StringValidation-Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -537,7 +771,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -545,11 +778,10 @@
 			};
 			name = Release;
 		};
-		F3B1D7F32832DC8A7F0ADD3651E8C1BE /* Debug */ = {
+		CAD6412F317652A08138D5C90C5505E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D645A8FCD9A620342BD7D3C55F8BE8A /* Pods-StringValidation-Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -574,6 +806,36 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFAD690370A733F7159EE8D753E1E4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CD4468F11092258771A898EBF8F987 /* StringValidation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StringValidation/StringValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StringValidation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StringValidation/StringValidation.modulemap";
+				PRODUCT_NAME = StringValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -584,15 +846,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		039C23F1CEF5CBC59394E7DB09F298AB /* Build configuration list for PBXNativeTarget "Pods-StringValidation-Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3B1D7F32832DC8A7F0ADD3651E8C1BE /* Debug */,
-				F2E892C9EB4190E2010BA9B7C0DE68A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -602,11 +855,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		483D5C16C523E5213D5AFD8C434CE8F0 /* Build configuration list for PBXNativeTarget "StringValidation" */ = {
+		3F4E77E187323925C213C1CC2B08B8EE /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7320AFB3A71D6E1E53518BDFD579E4D5 /* Debug */,
-				A6590E9D2C8CAAE0CF1C7FBDB4B32CA7 /* Release */,
+				178D7263DD2560358FD9BF2AA9199E88 /* Debug */,
+				7F042A3B2FD185829E1E3A91ED089805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC311C35F7E3C62D4688546ABF992F3 /* Build configuration list for PBXNativeTarget "StringValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD690370A733F7159EE8D753E1E4C1 /* Debug */,
+				5C7FD339129658D91FC7BDCA30709249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1D18B1651552EEC3CB0457B59C3F10 /* Build configuration list for PBXNativeTarget "Pods-StringValidation-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD6412F317652A08138D5C90C5505E5 /* Debug */,
+				BD5DE5A2B6189AB7CC58853D39EEBDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

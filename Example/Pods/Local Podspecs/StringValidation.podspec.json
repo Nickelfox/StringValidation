@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Source/**/*"
+  "source_files": "Source/**/*",
+  "dependencies": {
+    "PhoneNumberKit": [
+      "~> 1.4.0"
+    ]
+  }
 }
