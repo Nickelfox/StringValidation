@@ -13,8 +13,6 @@ private let phoneRegex = "^\\d{10}$"
 
 public class PhoneValidator: StringValidator {
 	
-	private let regexValidator = RegexValidator(regex: phoneRegex)
-
 	public let regionCode: String?
 	
 	private let phoneNumberKit = PhoneNumberKit()

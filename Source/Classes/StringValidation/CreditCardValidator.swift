@@ -54,22 +54,22 @@ public class CCVerificationCodeValidator: StringValidator {
 
 extension String {
 	public var isValidCreditCardExpirationDate: Bool {
-		if self.characters.count < 4 {
+		if self.count < 4 {
 			return false
 		}
 		let slashIndex: NSRange = (self as NSString).range(of: "/")
 		if slashIndex.location == 0 {
 			return false
 		}
-		var monthString: String = self.components(separatedBy: "/")[0]
-		var yearString: String = self.components(separatedBy: "/")[1]
-		if monthString.characters.count < 0 || yearString.characters.count < 0 {
+		let monthString: String = self.components(separatedBy: "/")[0]
+		let yearString: String = self.components(separatedBy: "/")[1]
+		if monthString.count < 0 || yearString.count < 0 {
 			return false
 		}
 		if let month = Int(monthString), var year = Int(yearString) {
 			let currentYear: Int = Calendar.current.component(.year, from: Date())
 			let currentMonth: Int = Calendar.current.component(.month, from: Date())
-			if yearString.characters.count <= 2 {
+			if yearString.count <= 2 {
 				year += 2000
 			}
 			if year == currentYear {
@@ -81,13 +81,13 @@ extension String {
 	}
 	
 	public var isValidCreditCardNumber: Bool {
-		if digitString.characters.count < 12 || digitString.characters.count > 20 {
+		if digitString.count < 12 || digitString.count > 20 {
 			return false
 		}
 		var index: Int = 0
 		var oddSum: Int = 0
 		var evenSum: Int = 0
-		let digitChars = digitString.characters
+		let digitChars = digitString
 		for char in digitChars.reversed() {
 			index += 1
 			if let intChar = Int(String(char)) {
@@ -106,9 +106,9 @@ extension String {
 	}
 	
 	public var isValidCardVerificationCode: Bool {
-		var digitString = self.digitString
-		let digitStringLength = digitString.characters.count
-		if (self.characters.count == digitStringLength) && (digitStringLength == 3 || digitStringLength == 4) {
+		let digitString = self.digitString
+		let digitStringLength = digitString.count
+		if (self.count == digitStringLength) && (digitStringLength == 3 || digitStringLength == 4) {
 			return true
 		}
 		return false

@@ -23,6 +23,6 @@ A Generic String Validation library for iOS by Fox Labs. It contains utility met
 
   s.source_files = 'Source/**/*'  
 
-  s.dependency 'PhoneNumberKit', '~> 1.4.0'
+  s.dependency 'PhoneNumberKit', '~> 2.1.0'
 
 end

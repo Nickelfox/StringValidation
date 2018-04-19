@@ -9,14 +9,14 @@
 
 private let numericRegex = "[0-9]+$"
 
-public class NumericValidator: StringValidator {
+public class NumericValidator: RegexValidator {
 	
-	private let regexValidator = RegexValidator(regex: numericRegex)
+	public init() {
+		super.init(regex: numericRegex)
+	}
 	
-	public init() { }
-	
-	public func validate(_ string: String?) -> Bool {
-		return self.regexValidator.validate(string)
+	override public func validate(_ string: String?) -> Bool {
+		return super.validate(string)
 	}
 	
 }

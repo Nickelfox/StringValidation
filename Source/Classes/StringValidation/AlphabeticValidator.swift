@@ -10,14 +10,14 @@
 
 private let alphabeticRegex = "^[A-z ]+$"
 
-public class AlphabeticValidator: StringValidator {
+public class AlphabeticValidator: RegexValidator {
 	
-	private let regexValidator = RegexValidator(regex: alphabeticRegex)
+	public init() {
+		super.init(regex: alphabeticRegex)
+	}
 	
-	public init() { }
-	
-	public func validate(_ string: String?) -> Bool {
-		return self.regexValidator.validate(string)
+	public override func validate(_ string: String?) -> Bool {
+		return super.validate(string)
 	}
 	
 }

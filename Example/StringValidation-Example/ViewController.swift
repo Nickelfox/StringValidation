@@ -19,7 +19,6 @@ enum ValidatorType: String {
 	case email = "email"
 	case emptyOrNil = "emptyOrNil"
 	case name = "name"
-	case fullName = "fullName"
 	case phone = "phone"
 	case pincode = "pincode"
 	case url = "url"
@@ -34,7 +33,6 @@ enum ValidatorType: String {
 			ValidatorType.email,
 			ValidatorType.emptyOrNil,
 			ValidatorType.name,
-			ValidatorType.fullName,
 			ValidatorType.phone,
 			ValidatorType.pincode,
 			ValidatorType.url
@@ -69,8 +67,7 @@ class ViewController: UIViewController {
 		case .creditCardVerification: valid = CCVerificationCodeValidator().validate(self.textField.text)
 		case .email: valid = EmailValidator().validate(self.textField.text)
 		case .emptyOrNil: valid = EmptyOrNilValidator().validate(self.textField.text)
-		case .name: valid = PartNameValidator().validate(self.textField.text)
-		case .fullName: valid = FullNameValidator().validate(self.textField.text)
+		case .name: valid = AlphabeticValidator().validate(self.textField.text)
 		case .phone: valid = PhoneValidator().validate(self.textField.text)
 		case .pincode: valid = PinCodeValidator().validate(self.textField.text)
 		case .url: valid = UrlValidator().validate(self.textField.text)

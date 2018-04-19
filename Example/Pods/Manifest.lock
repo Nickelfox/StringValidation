@@ -1,12 +1,12 @@
 PODS:
-  - PhoneNumberKit (1.4.0):
-    - PhoneNumberKit/PhoneNumberKitCore (= 1.4.0)
-    - PhoneNumberKit/UIKit (= 1.4.0)
-  - PhoneNumberKit/PhoneNumberKitCore (1.4.0)
-  - PhoneNumberKit/UIKit (1.4.0):
+  - PhoneNumberKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.1.0)
+    - PhoneNumberKit/UIKit (= 2.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.1.0)
+  - PhoneNumberKit/UIKit (2.1.0):
     - PhoneNumberKit/PhoneNumberKitCore
   - StringValidation (0.1.0):
-    - PhoneNumberKit (~> 1.4.0)
+    - PhoneNumberKit (~> 2.1.0)
 
 DEPENDENCIES:
   - StringValidation (from `../`)
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PhoneNumberKit: a739c359d05701e2e9745654f53e7c64379c2516
-  StringValidation: 9c14b9ea80282acef0e30762157bd53cb0d4a93c
+  PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
+  StringValidation: 3a0cc6c60db1947dd8764a2b23c851ce2105eb5c
 
 PODFILE CHECKSUM: 1b1bb33ece0e454b7e67f4a6dfb5b573eb96e2a1
 

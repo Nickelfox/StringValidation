@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct RegexValidator: StringValidator {
+public class RegexValidator: StringValidator {
 	private let regex: String
 	
 	public init(regex: String) {

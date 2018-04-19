@@ -9,13 +9,13 @@
 
 private let pinCodeRegex = "\\d{6}"
 
-public class PinCodeValidator: StringValidator {
+public class PinCodeValidator: RegexValidator {
 	
-	private let regexValidator = RegexValidator(regex: pinCodeRegex)
+	public init() {
+		super.init(regex: pinCodeRegex)
+	}
 	
-	public init() { }
-	
-	public func validate(_ string: String?) -> Bool {
-		return self.regexValidator.validate(string)
+	override public func validate(_ string: String?) -> Bool {
+		return super.validate(string)
 	}
 }

@@ -21,7 +21,7 @@
   "source_files": "Source/**/*",
   "dependencies": {
     "PhoneNumberKit": [
-      "~> 1.4.0"
+      "~> 2.1.0"
     ]
   }
 }

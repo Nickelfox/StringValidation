@@ -9,14 +9,14 @@
 
 private let alphaNumericRegex = "[a-zA-Z0-9]+$"
 
-public class AlphaNumericValidator: StringValidator {
+public class AlphaNumericValidator: RegexValidator {
+		
+	public init() {
+		super.init(regex: alphaNumericRegex)
+	}
 	
-	private let regexValidator = RegexValidator(regex: alphaNumericRegex)
-	
-	public init() { }
-	
-	public func validate(_ string: String?) -> Bool {
-		return self.regexValidator.validate(string)
+	public override func validate(_ string: String?) -> Bool {
+		return super.validate(string)
 	}
 	
 }
