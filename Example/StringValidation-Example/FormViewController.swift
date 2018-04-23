@@ -74,8 +74,9 @@ extension FormViewController {
             print("Validation Successful")
         case .invalid(let fields):
             for field in fields {
-                let field = field as! ValidationTextField
-                field.decorateFor(.invalid)
+                if let field = field as? ValidationTextField {
+                    field.decorateFor(.invalid)
+                }
             }
         }
     }
