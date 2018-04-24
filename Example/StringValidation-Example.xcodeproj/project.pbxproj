@@ -28,7 +28,7 @@
 		E35955A5F0B4ABE589C75BED /* Pods-AnyError-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyError-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnyError-Example/Pods-AnyError-Example.release.xcconfig"; sourceTree = "<group>"; };
 		E368CC761F285E5600420C6D /* StringValidation-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StringValidation-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D79BBC1F88C69B00169897 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3D79BBD1F88C69B00169897 /* Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Example.playground; sourceTree = "<group>"; };
+		E3D79BBD1F88C69B00169897 /* Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Example.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E3D79BBE1F88C69B00169897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D79BC01F88C69B00169897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D79BC21F88C69B00169897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
