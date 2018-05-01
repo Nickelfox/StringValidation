@@ -54,27 +54,38 @@ extension FormViewController {
     
     func setupTextFieldValidator() {
         self.alphabeticField.validator = AlphabeticValidator()
-        self.alphabeticField.error = "invalid string"
+        self.alphabeticField.isOptional = true
+        self.alphabeticField.error = StringValidationError.custom("invalid string")
+        
         self.numericField.validator = NumericValidator()
-        self.numericField.error = "invalid number"
+        self.numericField.error = StringValidationError.custom("invalid number")
+        
         self.creditCardField.validator = CCNumberValidator()
-        self.creditCardField.error = "invalid credit card"
+        self.creditCardField.error = StringValidationError.custom("invalid credit card")
+        
         self.creditExpiryDateField.validator = CCExpiryDateValidator()
-        self.creditExpiryDateField.error = "invalid expiry date"
+        self.creditExpiryDateField.error = StringValidationError.custom("invalid expiry date")
+        
         self.creditCardVerificationField.validator = CCVerificationCodeValidator()
-        self.creditCardVerificationField.error = "invalid CVV code"
+        self.creditCardVerificationField.error = StringValidationError.custom("invalid CVV code")
+        
         self.emailField.validator = EmailValidator()
-        self.emailField.error = "invaild email"
+        self.emailField.error = StringValidationError.custom("invaild email")
+        
         self.emptyOrNilField.validator = EmptyOrNilValidator()
-        self.emptyOrNilField.error = "not nil value"
+        self.emptyOrNilField.error = StringValidationError.emptyString
+        
         self.nameField.validator = AlphabeticValidator()
-        self.nameField.error = "invalid name"
+        self.nameField.error = StringValidationError.custom("invalid name")
+        
         self.phoneField.validator = PhoneValidator()
-        self.phoneField.error = "invalid phone number"
+        self.phoneField.error = StringValidationError.custom("invalid phone number")
+        
         self.pincodeField.validator = PinCodeValidator()
-        self.pincodeField.error = "invalid pin code"
+        self.pincodeField.error = StringValidationError.custom("invalid pin code")
+        
         self.urlField.validator = UrlValidator()
-        self.urlField.error = "invalid url"
+        self.urlField.error = StringValidationError.custom("invalid url")
         
         self.form.inputs = [
             self.alphabeticField,
@@ -126,37 +137,37 @@ extension FormViewController {
         switch textfield {
         case self.alphabeticField:
             self.alphabeticWarningLabel.isHidden = false
-            self.alphabeticWarningLabel.text = textfield.error
+            self.alphabeticWarningLabel.text = textfield.error?.message
         case self.numericField:
             self.numericWarningLabel.isHidden = false
-            self.numericWarningLabel.text = textfield.error
+            self.numericWarningLabel.text = textfield.error?.message
         case self.creditCardField:
             self.creditCardWarningLabel.isHidden = false
-            self.creditCardWarningLabel.text = textfield.error
+            self.creditCardWarningLabel.text = textfield.error?.message
         case self.creditExpiryDateField:
             self.creditExpiryDateWarningLabel.isHidden = false
-            self.creditExpiryDateWarningLabel.text = textfield.error
+            self.creditExpiryDateWarningLabel.text = textfield.error?.message
         case self.creditCardVerificationField:
             self.creditCardVerificationWarningLabel.isHidden = false
-            self.creditCardVerificationWarningLabel.text = textfield.error
+            self.creditCardVerificationWarningLabel.text = textfield.error?.message
         case self.emailField:
             self.emailWarningLabel.isHidden = false
-            self.emailWarningLabel.text = textfield.error
+            self.emailWarningLabel.text = textfield.error?.message
         case self.emptyOrNilField:
             self.emptyOrNilWarningLabel.isHidden = false
-            self.emptyOrNilWarningLabel.text = textfield.error
+            self.emptyOrNilWarningLabel.text = textfield.error?.message
         case self.nameField:
             self.nameWarningLabel.isHidden = false
-            self.nameWarningLabel.text = textfield.error
+            self.nameWarningLabel.text = textfield.error?.message
         case self.phoneField:
             self.phoneWarningLabel.isHidden = false
-            self.phoneWarningLabel.text = textfield.error
+            self.phoneWarningLabel.text = textfield.error?.message
         case self.pincodeField:
             self.pincodeWarningLabel.isHidden = false
-            self.pincodeWarningLabel.text = textfield.error
+            self.pincodeWarningLabel.text = textfield.error?.message
         case self.urlField:
             self.urlWarningLabel.isHidden = false
-            self.urlWarningLabel.text = textfield.error
+            self.urlWarningLabel.text = textfield.error?.message
 
         default : break
         }

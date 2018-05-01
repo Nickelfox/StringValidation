@@ -14,7 +14,9 @@ open class ValidationTextField: UITextField, ValidatableInput {
 	public var inputText: String? {
 		return self.text
 	}
-	public var error: String?
+    
+//    public var error: String?
+    public var error: StringValidationError?
 	public var validator: StringValidator?
 	public var isOptional = false
 	
