@@ -27,6 +27,12 @@ class ValidationTextView: UITextView, ValidatableInput {
 	}
 	
 	func validateSilently() {
+        
+        if self.isOptional {
+            self.decorateFor(.normal)
+            return
+        }
+
 		self.decorateFor(self.validate() ? .valid : .invalid)
 	}
 	
