@@ -54,30 +54,26 @@ public class CCVerificationCodeValidator: StringValidator {
 
 extension String {
 	public var isValidCreditCardExpirationDate: Bool {
-		if self.count < 4 {
-			return false
-		}
-		let slashIndex: NSRange = (self as NSString).range(of: "/")
-		if slashIndex.location == 0 {
-			return false
-		}
-		let monthString: String = self.components(separatedBy: "/")[0]
-		let yearString: String = self.components(separatedBy: "/")[1]
-		if monthString.count < 0 || yearString.count < 0 {
-			return false
-		}
-		if let month = Int(monthString), var year = Int(yearString) {
-			let currentYear: Int = Calendar.current.component(.year, from: Date())
-			let currentMonth: Int = Calendar.current.component(.month, from: Date())
-			if yearString.count <= 2 {
-				year += 2000
-			}
-			if year == currentYear {
-				return ((month >= currentMonth) && (month <= 12) && (month != 0))
-			}
-			return ((year >= currentYear) && (month <= 12) && (month != 0))
-		}
-		return true
+        
+        if !self.contains("/") || self.count < 5 {
+            return false
+        }
+        
+        guard let monthString = self.components(separatedBy: "/").first,
+            let yearString = self.components(separatedBy: "/").last,
+            let month = Int(monthString),
+            var year = Int(yearString) else { return false}
+        
+        let currentYear = Calendar.current.component(.year, from: Date())
+        let currentMonth = Calendar.current.component(.month, from: Date())
+        if yearString.count <= 2 {
+            year += 2000
+        }
+        
+        if year == currentYear {
+            return ((month >= currentMonth) && (month <= 12) && (month != 0))
+        }
+        return ((year >= currentYear) && (month <= 12) && (month != 0))
 	}
 	
 	public var isValidCreditCardNumber: Bool {
