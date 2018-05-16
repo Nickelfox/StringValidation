@@ -24,7 +24,7 @@ public class Form  {
         for input in self.inputs {
             if input.isOptional {
 				//if optional then check if it has text or not
-				if let text = input.inputText, let validator = input.validator {
+				if let text = input.inputText, let validator = input.validator, !text.isEmpty {
 					if !validator.validate(text) {
 						invalidInputs.append(input)
 					}
